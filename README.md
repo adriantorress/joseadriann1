@@ -6,6 +6,6 @@ Aplicação simples de cadastro de livros feita com Node.js, Express, EJS, Seque
 
 ```bash
 git clone https://github.com/adriantorress/joseadriann1.git
-cd livros-app
+cd .\joseadriann1\
 npm install
 npm start
