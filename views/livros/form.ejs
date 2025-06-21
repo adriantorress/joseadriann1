@@ -1,0 +1,13 @@
+<%- include('../partials/header') %>
+
+<form action="<%= action %>" method="POST">
+  <input type="text" name="titulo" placeholder="Título" value="<%= livro.titulo || '' %>" required>
+  <input type="text" name="autor" placeholder="Autor" value="<%= livro.autor || '' %>" required>
+  <input type="number" name="ano" placeholder="Ano" value="<%= livro.ano || '' %>" required>
+  <input type="text" name="genero" placeholder="Gênero" value="<%= livro.genero || '' %>" required>
+  <button type="submit">Salvar</button>
+</form>
+
+<a href="/">Voltar</a>
+
+<%- include('../partials/footer') %>
